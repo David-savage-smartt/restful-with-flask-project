@@ -2,7 +2,7 @@
 name = "flasktutorial"
 version = "0.1.0"
 description = ""
-authors = ["David Ibia <david.ibia@boxmarshall.com>"]
+authors = []
 readme = "README.md"
 
 [tool.poetry.dependencies]
