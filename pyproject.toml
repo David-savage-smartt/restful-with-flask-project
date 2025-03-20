@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "flasktutorial"
+version = "0.1.0"
+description = ""
+authors = ["David Ibia <david.ibia@boxmarshall.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.11.1"
+black = "^25.1.0"
+mypy = "^1.15.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
